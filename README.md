@@ -1,6 +1,6 @@
-# Owncloud
+# OwnCloud
 
-# Instalação do Owncloud
+# Instalação do OwnCloud
 
 
 1º - Crie um diretorio "Owncloud" e entre no mesmo.
