@@ -3,7 +3,7 @@
 # Instalação do OwnCloud
 
 
-1º - Crie um diretorio "Owncloud" e entre no mesmo.
+1º - Crie um diretório "Owncloud" e entre no mesmo.
 
 ~# mkdir Owncloud
 
@@ -42,7 +42,7 @@
        data_file:
 
 
-3º - Execute o arquivo ".yaml" para iniciar o contaienr Portainer.
+3º - Execute o arquivo ".yaml" para iniciar o Container do OwnCloud.
 
 
 ~# docker-compose -f docker-compose.yaml up -d
@@ -53,17 +53,17 @@
 http://IP-HOST:80
 
 
-5º - Na tela de login crie um senha para user
+5º - Na tela de login crie uma senha para usuário
 
-Digite o login e senha do novo usuário
+5.1 - Digite o login e senha do novo usuário
 
-Selecione o banco de dados clicando em "Armaxenmaneto & banco de dados" e selecione "MySQL/MariaDB"
+5.2 - Selecione o banco de dados clicando em "Armazenamento & banco de dados" e selecione "MySQL/MariaDB"
 
-Preencha os dados do abanco de dados levando em conta o arquivo ".yaml".
+5.3 - Preencha os dados do abanco de dados levando em conta o arquivo ".yaml".
 
 - Usuário de banco de dados: root
 - Senha de banco de dados: Passwd
 - Nome do banco de dados: owncloud 
 - Host do banco de dados: mysql "Nome do service do banco de dados mysql utilizado no seu arquivo .yaml"
 
-6º - Clique em "Comcluir configuração" para finalizar a instlação e acessar a aplicação.
+6º - Clique em "Concluir configuração" para finalizar a instalação e acessar a aplicação.
